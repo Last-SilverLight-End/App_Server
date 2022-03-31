@@ -3,13 +3,13 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -19,12 +19,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+ 
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   color: #61dafb;
 }
 
@@ -35,4 +37,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.kakaologin{
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid yellow;
+  margin-top: 1rem;
+  color: yellow;
+  margin: 0 1em;
+  padding: 0.25em 1em;
+  font-size: 20px;
+}
+
+.instagramlogin{
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid violet;
+  margin-top: 1rem;
+  color: violet;
+  margin: 1 1em;
+  padding: 0.25em 1em;
+  font-size: 20px;
+}
+
+.facebooklogin{
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid skyblue;
+  margin-top: 1rem;
+  color: skyblue;
+  margin: 1 1em;
+  padding: 0.25em 1em;
+  
+  font-size: 20px;
 }

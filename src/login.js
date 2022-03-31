@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function login() {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,9 +17,12 @@ function App() {
         >
           Learn React
         </a>
+        <button className = "kakaologin"> 카카오로 로그인</button>
+        <button className = "naverlogin">  네이버로 로그인</button>
+        <button className = "facebooklogin"> 페이스북으로 로그인</button>
       </header>
     </div>
   );
 }
 
-export default App;
+export default login;
