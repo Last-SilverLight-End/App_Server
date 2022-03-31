@@ -1,3 +1,14 @@
+#2022/03/31 여긴 캡스톤 코딩 공간
+
+누군가가 해놓은걸 처리하느라 힘들다
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
